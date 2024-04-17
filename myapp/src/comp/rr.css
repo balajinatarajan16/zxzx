@@ -1,0 +1,50 @@
+.b {
+  background: linear-gradient(to right, #3498db, #1abc9c); /* Adjust colors as needed */
+  opacity: 1.3;
+  margin: 0; /* Remove default margin for the body */
+  font-family: Arial, sans-serif; /* Optional: specify a font-family */
+}
+.icon-inside-input {
+  position: absolute;
+  top: 50%;
+  left: 10px; /* Adjust the left position as needed */
+  transform: translateY(-50%);
+  color: #ccc; /* Optional: set the icon color */
+  pointer-events: none; /* Allow clicking through the icon to the input */
+}
+
+.u {
+  border: none;
+  border-bottom: 1px solid #d81476; /* Change color as needed */
+  outline: none;
+  padding: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: add a subtle box shadow */
+  background: linear-gradient(to right, #3498db, #1abc9c); /* Adjust colors as needed */
+  color: #333; /* Optional: set text color */
+  transition: border-bottom-color 0.3s ease; /* Optional: add a transition effect */
+}
+
+.u:hover {
+  border-bottom-color: #ddbfcd; /* Change color on focus */
+  /* transition: border-bottom-color 0.3s ease;  */
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+  .i {
+    /* display: inline-block; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color:  #dfd4d4; /* You can change the background color */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .i svg {
+    color: hsl(249, 88%, 42%); /* You can change the icon color */
+    font-size: 25px; /* Adjust the icon size */
+  }
+  .b:hover {
+    opacity: 1; /* Adjust the opacity on hover */
+  }
